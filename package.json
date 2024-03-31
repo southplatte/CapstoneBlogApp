@@ -1,0 +1,24 @@
+{
+  "name": "capstoneblogapp",
+  "version": "1.0.0",
+  "description": "Basic App Using Node, Express, EJS to be able to post articles, read articles, and delete articles in a simple blog type format.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/southplatte/CapstoneBlogApp.git"
+  },
+  "author": "Bill Nab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/southplatte/CapstoneBlogApp/issues"
+  },
+  "homepage": "https://github.com/southplatte/CapstoneBlogApp#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.19.1"
+  }
+}
