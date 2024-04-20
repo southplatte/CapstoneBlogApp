@@ -1,0 +1,10 @@
+<%- include("header.ejs"); %>
+
+<% if(posts) { %>
+    <h1><%= posts.postTitle %></h1>
+    <%- posts.postContent %>
+<% } %> 
+<form action="/delete/<%=postId%>" method="post">
+    <button type="submit" class="btn btn-danger" name="postId" id="postId" value="<%=postId%>" >Delete Post </button>
+</form>
+<%- include("footer.ejs"); %>
